@@ -1,5 +1,12 @@
 # LMS_EX
 
+![b1](https://github.com/Carvingcode30/LMS_EX/assets/141935901/a746d856-1279-4ea5-9e6c-ff723160b462)
+
+
+
+![a1](https://github.com/Carvingcode30/LMS_EX/assets/141935901/84456e7a-e345-4743-aa86-5a76d16722e4)
+
+
 -- Q1. '다교수'의 교수코드를 출력하세요
 select * from professor;
 
@@ -182,3 +189,6 @@ from student_course sc
 join course c
 on sc.course_code = c.course_code
 group by sc.course_code;
+
+
+
