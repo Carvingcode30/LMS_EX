@@ -7,6 +7,9 @@
 ![a1](https://github.com/Carvingcode30/LMS_EX/assets/141935901/84456e7a-e345-4743-aa86-5a76d16722e4)
 
 
+### SQL 쿼리 목록
+
+```sql
 -- Q1. '다교수'의 교수코드를 출력하세요
 SELECT professor_code 
 FROM professor 
@@ -125,9 +128,5 @@ SELECT c.course_name, COUNT(sc.student_id) AS cnt
 FROM student_course sc 
 JOIN course c ON sc.course_code = c.course_code 
 GROUP BY sc.course_code;
-
-on sc.course_code = c.course_code
-group by sc.course_code;
-
 
 
